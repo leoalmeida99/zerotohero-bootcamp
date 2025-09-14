@@ -1,0 +1,5 @@
+String adornar(String frase) {
+    return String.format("<=%s=>", frase);
+}
+adornar("Java")
+adornar("Mundo")

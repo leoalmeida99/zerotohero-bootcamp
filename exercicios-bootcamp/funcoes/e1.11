@@ -1,0 +1,6 @@
+String tituloAdornado(String titulo) {
+    return String.format("<<< %s >>>", titulo);
+}
+tituloAdornado("Java");
+tituloAdornado(">>> <<<");
+tituloAdornado("A + B");

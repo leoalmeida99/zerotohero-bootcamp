@@ -1,0 +1,6 @@
+konnichiwa("teste")
+konnichiwa("teste")
+String konnichiwa(String dare) {
+    return String.format("こんにちは%s", dare);
+}
+konnichiwa("teste")
