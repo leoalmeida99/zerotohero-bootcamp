@@ -1,0 +1,8 @@
+validarMultiploDe7(-7)
+boolean validarMultiploDe7(int a) {
+    return (a > 0) && (a % 7 == 0) && (a < 1000);
+}
+validarMultiploDe7(-7)
+validarMultiploDe7(0)
+validarMultiploDe7(91)
+validarMultiploDe7(9100)

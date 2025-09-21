@@ -1,0 +1,7 @@
+boolean validar(int inicio, int meio, int tamanho) {
+    return (inicio >= 0) && (inicio < meio) && (meio < tamanho);
+}
+validar(0, 1, 2)
+validar(1, 1, 2)
+validar(2, 1, 3)
+validar(1, 3, 5)

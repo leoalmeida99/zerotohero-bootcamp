@@ -1,0 +1,15 @@
+double calculoMinutoXValorPorMinuto(int minutos) {
+    return minutos * 10;
+}
+double cobrar(int minutos) {
+    if (calculoMinutoXValorPorMinuto(minutos) <= 100) return 100.0;
+    if (calculoMinutoXValorPorMinuto(minutos) >= 3000) return 3000.0;
+    return calculoMinutoXValorPorMinuto(minutos);
+}
+cobrar(1)
+cobrar(10)
+cobrar(9)
+cobrar(15)
+cobrar(90)
+cobrar(1_000)
+cobrar(1_010)

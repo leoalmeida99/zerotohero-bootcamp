@@ -1,0 +1,11 @@
+inicio(6, 1)
+inicio(6, 2)
+inicio(6, 1)
+inicio(6, 1)
+int inicio(int resultados, int pagina) {
+    return (resultados * (pagina - 1)) ;
+}
+inicio(6, 1)
+inicio(6, 2)
+inicio(6, 3)
+inicio(10, 2)

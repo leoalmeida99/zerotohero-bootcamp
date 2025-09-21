@@ -1,0 +1,6 @@
+double tercerAnglo(double a, double b) {
+    return 180.0 - (a + b);
+}
+tercerAnglo(60.0, 60.0)
+tercerAnglo(45.0, 90.0)
+tercerAnglo(35.0, 50.0)

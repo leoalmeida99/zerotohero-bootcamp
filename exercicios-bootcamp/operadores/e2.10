@@ -1,0 +1,5 @@
+int diferenciaDeCuadrados(int a, int b) {
+    return (a * a) -  (b * b);
+}
+diferenciaDeCuadrados(3, 2)
+diferenciaDeCuadrados(1, 1)
